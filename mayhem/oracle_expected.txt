@@ -1,0 +1,13 @@
+riv click_event.riv artboards=2 [art-1 500x500 anims=2 sms=1 a0=red dur=60 fps=60 t=0.250 b=0.0,0.0,500.0,500.0] [art-2 500x500 anims=2 sms=1 a0=red dur=60 fps=60 t=0.250 b=0.0,0.0,500.0,500.0]
+riv entry.riv artboards=2 [New Artboard 500x500 anims=1 sms=1 a0=Animation 1 dur=60 fps=60 t=0.250 b=0.0,0.0,500.0,500.0] [New Artboard 163x189 anims=0 sms=1 b=0.0,0.0,163.0,189.0]
+riv bullet_man.riv artboards=11 [Bullet Man 500x500 anims=11 sms=1 a0=Entry dur=360 fps=60 t=0.250 b=0.0,0.0,500.0,500.0] [Character 500x500 anims=1 sms=0 a0=Animation 1 dur=60 fps=60 t=0.250 b=0.0,0.0,500.0,500.0] [Helmet_alert 400x300 anims=1 sms=0 a0=Animation 1 dur=60 fps=60 t=0.250 b=0.0,0.0,400.0,300.0]
+riv ball_test.riv artboards=4 [Artboard 500x500 anims=1 sms=1 a0=Timeline 1 dur=60 fps=60 t=0.250 b=0.0,0.0,500.0,500.0] [Nested Artboard 2 300x300 anims=1 sms=1 a0=Bounce dur=60 fps=60 t=0.250 b=0.0,0.0,300.0,300.0] [Nested Artboard 300x300 anims=1 sms=1 a0=Bounce dur=60 fps=60 t=0.250 b=0.0,0.0,300.0,300.0]
+riv component_list_clipped_viewport.riv artboards=2 [Main 400x400 anims=0 sms=1 b=0.0,0.0,400.0,400.0] [Item 200x50 anims=0 sms=1 b=0.0,0.0,200.0,50.0]
+riv drawable_custom_properties_other.riv artboards=1 [Other 64x64 anims=0 sms=1 b=0.0,0.0,64.0,64.0]
+image batdude.png 442x412 sum=381cdb99
+image open_source.jpg 350x200 sum=c2414af7
+image 1.webp 550x368 sum=f16ffc42
+image bad.png decode-failed
+font IBMPlexSansArabic-Regular.ttf paras=1 glyphs=12 advance=170.39 axes=0
+font OpenSans-Italic.ttf paras=1 glyphs=12 advance=165.31 axes=0
+font LibreBodoni-Italic-VariableFont_wght.ttf paras=1 glyphs=12 advance=173.03 axes=1

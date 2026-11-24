@@ -1,0 +1,9 @@
+project: savantenvs/rive-runtime
+target: ktx2
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/ktx2/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_ktx2
+    libfuzzer: true
+    timeout: 10

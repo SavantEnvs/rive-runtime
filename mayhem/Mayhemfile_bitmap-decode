@@ -1,0 +1,9 @@
+project: savantenvs/rive-runtime
+target: bitmap-decode
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/bitmap-decode/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_bitmap_decode
+    libfuzzer: true
+    timeout: 10

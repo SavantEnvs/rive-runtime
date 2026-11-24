@@ -1,0 +1,9 @@
+project: savantenvs/rive-runtime
+target: riv-deferred
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/riv-deferred/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_riv_deferred
+    libfuzzer: true
+    timeout: 10
